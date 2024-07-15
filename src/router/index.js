@@ -24,6 +24,9 @@ const routes = [
     component: Dashboard
   },
   {
+    path: '/.well-known/acme-challenge/:challengeID'
+  },
+  {
     path: '*',
     name: 'PageNotFound',
     component: PageNotFound
